@@ -1,6 +1,6 @@
 
  .page {
-    border: 3px solid rgb(119, 111, 111);
+    border: 3px solid rgb(172, 164, 164);
 
 }
 
@@ -20,7 +20,8 @@
     margin: 0;
     display: flex;
     position: relative;
-    border-bottom: 3px solid rgb(119, 111, 111);
+    border-bottom: 3px solid rgb(172, 164, 164);
+    box-sizing: border-box;
 }
 
 .logo, .logo_place_header {
@@ -80,11 +81,11 @@
 .indent {
     display: flex;
     height: 100px;
-    border-bottom: 3px solid rgb(119, 111, 111);
+    border-bottom: 3px solid rgb(172, 164, 164);
 }
 
 .description {
-    border-bottom: 3px solid rgb(119, 111, 111);  
+    border-bottom: 3px solid rgb(172, 164, 164);  
 }
 
 .two-columns {
@@ -131,7 +132,7 @@
 }
 
 .digits {
-    border-bottom: 3px solid rgb(119, 111, 111);
+    border-bottom: 3px solid rgb(172, 164, 164);
 }
 
 .section-title {
@@ -189,8 +190,8 @@
     height: 890px;
     position: relative;
     background-color:  #f2f2f2;
-    border-bottom: 3px solid rgb(119, 111, 111);
-    border-top: 3px solid rgb(119, 111, 111); 
+    border-bottom: 3px solid rgb(172, 164, 164);
+    border-top: 3px solid rgb(172, 164, 164); 
 }
 
 .feynman__title {
@@ -224,6 +225,7 @@
     font-size: 36px;
     font-weight: normal;
     line-height: 51px;
+    text-decoration: none;
 }
 
 .feynman__img {
@@ -233,14 +235,12 @@
     left: 0;
     bottom: 0;
     z-index: 1;
-    
 }
 
 .indent_theme_dark {
     background-color: black;
     height: 90px;
-    /* border-top: 3px solid rgb(119, 111, 111);  */
-    border-bottom: 3px solid rgb(119, 111, 111);
+    border-bottom: 3px solid rgb(172, 164, 164);
 }
 
 .indent_theme_dark_place_bottom {
@@ -252,7 +252,7 @@
     overflow: hidden; 
     padding-top: 1px;
     background-color: #000000;
-    border-bottom: 3px solid rgb(119, 111, 111);
+    border-bottom: 3px solid rgb(172, 164, 164);
     color: white;
 }
 
